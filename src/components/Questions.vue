@@ -116,7 +116,8 @@ export default {
   padding-top: 20px;
   height: 250px;
   width: 600px;
-  background-color: #99ffff;
+  background-color: #e0ffff;
+  border-radius: 20px;
 }
 .btn {
   height: 100px;
@@ -130,5 +131,6 @@ export default {
 }
 .ui.blue.button {
   font-size: 25px;
+  padding-left: 30px;
 }
 </style>

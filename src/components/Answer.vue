@@ -1,6 +1,6 @@
 <template>
   <div class="answer-panel">
-    <h1>CORRECT</h1>
+    <h1>正解！！</h1>
     <button class="next-question ui teal button" @click="onNextQuestion">次の問題にチャレンジ!</button>
   </div>
 </template>
@@ -22,6 +22,7 @@ export default {
   height: 250px;
   width: 600px;
   background-color: palegreen;
+  border-radius: 20px;
 }
 .next-question {
   cursor: pointer;

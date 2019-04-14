@@ -41,17 +41,14 @@ export default {
 .container {
   text-align: center;
 }
+.text-center {
+  padding-top: 20px;
+}
 .questions-div {
   text-align: -webkit-center;
 }
-.flip-enter {
-  /* transform: rotateY(0deg) */
-}
 .flip-enter-active {
   animation: flip-in 0.5s ease-out forwards;
-}
-.flip-leave {
-  /* transform: rotateY(0deg) */
 }
 .flip-leave-active {
   animation: flip-out 0.5s ease-out forwards;
